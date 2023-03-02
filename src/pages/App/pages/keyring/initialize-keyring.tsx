@@ -170,7 +170,7 @@ const InitializeKeyring = () => {
                   />{' '}
                   <Typography variant="body2" color="text.secondary">
                     I understand that TRAMPOLINE Account cannot recover this
-                    password for me
+                    password for me.
                   </Typography>
                 </Stack>
               </FormControl>
