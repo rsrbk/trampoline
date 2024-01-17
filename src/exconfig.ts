@@ -4,15 +4,15 @@ import { EVMNetwork } from './pages/Background/types/network';
 export default {
   enablePasswordEncryption: false,
   showTransactionConfirmationScreen: true,
-  factory_address: '0x9406Cc6185a346906296840746125a0E44976454',
+  factory_address: '0x9b8E12E6e200d9642F7E20D70Fa18a99874f1ff9',
   stateVersion: '0.1',
   network: {
-    chainID: '11155111',
+    chainID: '5',
     family: 'EVM',
-    name: 'Sepolia',
-    provider: 'https://sepolia.infura.io/v3/bdabe9d2f9244005af0f566398e648da',
+    name: 'Goerli',
+    provider: 'https://api.stackup.sh/v1/node/e3f9e8309615aa5001f0781c401babfa6ff5622c58d366df5584e893827b0ab1',
     entryPointAddress: '0x5FF137D4b0FDCD49DcA30c7CF57E578a026d2789',
-    bundler: 'https://sepolia.voltaire.candidewallet.com/rpc',
+    bundler: 'https://api.stackup.sh/v1/node/e3f9e8309615aa5001f0781c401babfa6ff5622c58d366df5584e893827b0ab1',
     baseAsset: {
       symbol: 'ETH',
       name: 'ETH',
